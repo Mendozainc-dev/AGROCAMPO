@@ -160,7 +160,7 @@ const styles = StyleSheet.create({
   },
   overlay: {
     flex: 1,
-    backgroundColor: 'rgba(5, 46, 22, 0.45)', // Semi-transparent dark green overlay for optimal contrast and legibility
+    backgroundColor: 'rgba(5, 46, 22, 0.4)',
   },
   container: {
     flex: 1,
@@ -178,9 +178,9 @@ const styles = StyleSheet.create({
     width: 72,
     height: 72,
     borderRadius: 8,
-    backgroundColor: '#ffffff',
+    backgroundColor: 'rgba(255, 255, 255, 0.9)',
     borderWidth: 1,
-    borderColor: '#047857',
+    borderColor: 'rgba(4, 120, 87, 0.6)',
     justifyContent: 'center',
     alignItems: 'center',
     marginBottom: 12,
@@ -214,11 +214,11 @@ const styles = StyleSheet.create({
     textShadowRadius: 3,
   },
   formCard: {
-    backgroundColor: '#ffffff',
+    backgroundColor: 'rgba(255, 255, 255, 0.7)', // Semi-transparent white background for frosted glass effect
     borderRadius: 8,
     padding: 24,
     borderWidth: 1,
-    borderColor: '#d1d5db',
+    borderColor: 'rgba(255, 255, 255, 0.6)',
     shadowColor: '#000000',
     shadowOffset: { width: 0, height: 8 },
     shadowOpacity: 0.35,
@@ -237,7 +237,7 @@ const styles = StyleSheet.create({
     marginBottom: 20,
   },
   errorContainer: {
-    backgroundColor: '#fef2f2',
+    backgroundColor: 'rgba(254, 242, 242, 0.7)',
     borderWidth: 1,
     borderColor: '#fecaca',
     borderRadius: 6,
@@ -259,7 +259,7 @@ const styles = StyleSheet.create({
     marginBottom: 6,
   },
   input: {
-    backgroundColor: '#f9fafb',
+    backgroundColor: 'rgba(249, 250, 251, 0.7)',
     borderWidth: 1,
     borderColor: '#d1d5db',
     borderRadius: 6,
@@ -271,7 +271,7 @@ const styles = StyleSheet.create({
   passwordContainer: {
     flexDirection: 'row',
     alignItems: 'center',
-    backgroundColor: '#f9fafb',
+    backgroundColor: 'rgba(249, 250, 251, 0.7)',
     borderWidth: 1,
     borderColor: '#d1d5db',
     borderRadius: 6,
