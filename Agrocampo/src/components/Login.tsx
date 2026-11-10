@@ -27,7 +27,7 @@ export default function Login({ onLoginSuccess }: LoginProps) {
 
   const handleLogin = () => {
     setErrorMessage('');
-    
+
     if (!email.trim()) {
       setErrorMessage('Por favor ingresa tu correo electrónico.');
       return;
@@ -117,7 +117,7 @@ export default function Login({ onLoginSuccess }: LoginProps) {
                     style={styles.eyeButton}
                     onPress={() => setSecureText(!secureText)}
                   >
-                    <Text style={styles.eyeButtonText}>{secureText ? '👁️' : '👁️‍🗨️'}</Text>
+                    <Text style={styles.eyeButtonText}>{secureText ? '👁️‍🗨️' : '👁️‍🗨️'}</Text>
                   </TouchableOpacity>
                 </View>
               </View>
